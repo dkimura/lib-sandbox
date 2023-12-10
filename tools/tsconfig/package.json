@@ -1,12 +1,12 @@
 {
+  "private": true,
   "name": "@repo/tsconfig",
   "version": "0.0.1",
-  "private": true,
   "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
     "@tsconfig/vite-react": "2.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

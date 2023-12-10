@@ -1,6 +1,6 @@
 {
-  "name": "@repo/core",
   "private": true,
+  "name": "@repo/core",
   "version": "0.0.1",
   "type": "module",
   "exports": {
@@ -9,22 +9,22 @@
       "require": "./dist/index.umd.js"
     }
   },
-  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "vite build && tsc",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "type-check": "tsc --noEmit"
   },
+  "types": "./dist/index.d.ts",
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@repo/tsconfig": "workspace:*",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "eslint": "^8.53.0",
-    "@repo/tsconfig": "workspace:*",
-    "@repo/eslint-config": "workspace:*",
     "eslint-plugin-react-refresh": "^0.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
