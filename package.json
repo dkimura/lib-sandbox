@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "lib-sandbox",
+  "license": "MIT",
+  "author": "dkimura <dkimura@bdd.xyz>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "20.10.0",
+    "pnpm": "8.12.0"
+  },
+  "packageManager": "pnpm@8.12.0",
+  "devDependencies": {
+    "turbo": "1.11.1"
+  }
+}
