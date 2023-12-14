@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "dependencies": {
-    "@tsconfig/vite-react": "2.0.1"
+    "@tsconfig/vite-react": "3.0.0"
   },
   "publishConfig": {
     "access": "public"
