@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "@repo/design-tokens",
+  "version": "0.0.1",
+  "main": "dist/tokens.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "style-dictionary build",
+    "clean": "style-dictionary clean"
+  },
+  "typings": "dist/tokens.d.ts",
+  "devDependencies": {
+    "style-dictionary": "3.9.1"
+  },
+  "style": "dist/tokens.css"
+}
