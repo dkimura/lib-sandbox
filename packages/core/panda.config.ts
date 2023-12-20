@@ -1,5 +1,4 @@
 import { defineConfig } from '@pandacss/dev'
-import tokens from '@repo/design-tokens'
 
 export default defineConfig({
   // Whether to use css reset
