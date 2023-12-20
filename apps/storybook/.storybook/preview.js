@@ -1,4 +1,4 @@
-import '../../../packages/core/styled-system/styles.css'
+// import '../../../packages/core/styled-system/styles.css'
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
