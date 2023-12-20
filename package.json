@@ -5,6 +5,7 @@
   "license": "MIT",
   "author": "dkimura <dkimura@bdd.xyz>",
   "scripts": {
+    "dev": "turbo dev",
     "build": "turbo build",
     "lint": "turbo run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
