@@ -9,8 +9,8 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       ref={ref}
       type="button"
       className={css({
-        bg: 'brand',
-        color: 'brand',
+        bg: 'red.600',
+        color: 'white',
         fontFamily: 'Inter',
         px: '4',
         py: '3',
