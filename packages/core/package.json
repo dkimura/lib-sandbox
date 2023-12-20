@@ -7,12 +7,16 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.umd.js"
+    },
+    "./style.css": {
+      "import": "./styled-system/styles.css",
+      "require": "./styled-system/styles.css"
     }
   },
   "scripts": {
     "prepare": "panda codegen",
     "dev": "panda cssgen --outfile ./styled-system/styles.css -w",
-    "build": "vite build && tsc",
+    "build": "panda cssgen --outfile ./styled-system/styles.css && vite build && tsc",
     "lint": "eslint . --ext ts,tsx",
     "type-check": "tsc --noEmit"
   },

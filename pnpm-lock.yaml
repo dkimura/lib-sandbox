@@ -16,6 +16,10 @@ importers:
         version: 1.11.2
 
   apps/storybook:
+    dependencies:
+      '@repo/core':
+        specifier: workspace:*
+        version: link:../../packages/core
     devDependencies:
       '@storybook/addon-essentials':
         specifier: 7.6.4
