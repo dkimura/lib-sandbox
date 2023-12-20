@@ -1,0 +1,62 @@
+name: Chromatic
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+      STORE_PATH:
+      TURBO_TEAM: 'lib-sandbox'
+      TURBO_API: 'http://127.0.0.1:9080'
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 🏠
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .tool-versions
+
+      - name: Setup pnpm 🧑‍💼
+        uses: pnpm/action-setup@v2
+        with:
+          run_install: false
+
+      - name: Get pnpm store directory 📁
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache 📦
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies 👨🏻‍💻
+        run: pnpm install --frozen-lockfile
+
+      - name: TurboRepo local server 💪
+        uses: felixmosh/turborepo-gh-artifacts@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          server-token: ${{ secrets.TURBO_TOKEN }}
+
+      - name: Run build 🏗️
+        run: pnpm build --filter=storybook
+
+      - name: Publish to Chromatic 🚢
+        uses: chromaui/action@latest
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+          storybookBuildDir: apps/storybook/dist
+          zip: true
