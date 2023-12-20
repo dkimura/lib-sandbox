@@ -5,8 +5,8 @@ on:
   - pull_request
 
 jobs:
-  lint:
-    name: Lint
+  chromatic:
+    name: Chromatic
     runs-on: ubuntu-latest
 
     env:
@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout 🛎
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js 🏠
         uses: actions/setup-node@v4
@@ -53,6 +55,10 @@ jobs:
 
       - name: Run build 🏗️
         run: pnpm build --filter=storybook
+        env:
+          TURBO_API: ${{ env.TURBO_API }}
+          TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+          TURBO_TEAM: ${{ env.TURBO_TEAM }}
 
       - name: Publish to Chromatic 🚢
         uses: chromaui/action@latest
