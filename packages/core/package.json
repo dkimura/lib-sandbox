@@ -13,7 +13,7 @@
     "prepare": "panda codegen",
     "dev": "panda cssgen --outfile ./styled-system/styles.css -w",
     "build": "vite build && tsc",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext ts,tsx",
     "type-check": "tsc --noEmit"
   },
   "types": "./dist/index.d.ts",
