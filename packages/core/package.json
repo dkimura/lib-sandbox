@@ -10,6 +10,8 @@
     }
   },
   "scripts": {
+    "prepare": "panda codegen",
+    "dev": "panda cssgen --outfile ./styled-system/styles.css -w",
     "build": "vite build && tsc",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "type-check": "tsc --noEmit"
@@ -20,6 +22,7 @@
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@pandacss/dev": "0.22.1",
     "@repo/eslint-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
     "@storybook/react": "7.6.4",
@@ -31,5 +34,8 @@
     "react-dom": "18.2.0",
     "typescript": "5.3.3",
     "vite": "5.0.9"
+  },
+  "dependencies": {
+    "@repo/design-tokens": "workspace:^"
   }
 }

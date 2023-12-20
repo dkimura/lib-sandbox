@@ -7,7 +7,7 @@
     "emitDeclarationOnly": true,
     "noEmit": false
   },
-  "include": ["src"],
+  "include": ["src", "styled-system"],
   "exclude": ["node_modules", "dist"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
