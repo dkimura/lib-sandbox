@@ -15,7 +15,7 @@
     "turbo": "1.11.3"
   },
   "engines": {
-    "node": "20.10.0",
+    "node": "20.11.0",
     "pnpm": "8.14.1"
   },
   "packageManager": "pnpm@8.14.1"
