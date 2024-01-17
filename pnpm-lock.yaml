@@ -104,8 +104,8 @@ importers:
   packages/design-tokens:
     devDependencies:
       style-dictionary:
-        specifier: 3.9.1
-        version: 3.9.1
+        specifier: 3.9.2
+        version: 3.9.2
 
   tools/eslint-config:
     dependencies:
@@ -9508,8 +9508,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  /style-dictionary@3.9.1:
-    resolution: {integrity: sha512-odyTC7wMYE4B3VOhc3LW1g0PCz9g+0WZZt5qp8KpWP9POlhw0+8MYiPQYwYfBmu4MEs1qbZ+GHySu4TTjQPH9A==}
+  /style-dictionary@3.9.2:
+    resolution: {integrity: sha512-M2pcQ6hyRtqHOh+NyT6T05R3pD/gwNpuhREBKvxC1En0vyywx+9Wy9nXWT1SZ9ePzv1vAo65ItnpA16tT9ZUCg==}
     engines: {node: '>=12.0.0'}
     hasBin: true
     dependencies:
