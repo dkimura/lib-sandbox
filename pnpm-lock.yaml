@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       dummy:
-        specifier: github:dkimura/dummy-repo#v0.0.1
+        specifier: git+https://github.com/dkimura/dummy-repo#v0.0.1
         version: git@github.com+dkimura/dummy-repo/755f9de1973607f7fa7bb87cee3849cb2b63f782
     devDependencies:
       prettier:

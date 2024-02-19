@@ -20,6 +20,6 @@
   },
   "packageManager": "pnpm@8.15.3",
   "dependencies": {
-    "dummy": "github:dkimura/dummy-repo#v0.0.1"
+    "dummy": "git+https://github.com/dkimura/dummy-repo#v0.0.1"
   }
 }
