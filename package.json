@@ -18,5 +18,8 @@
     "node": "20.11.1",
     "pnpm": "8.15.3"
   },
-  "packageManager": "pnpm@8.15.3"
+  "packageManager": "pnpm@8.15.3",
+  "dependencies": {
+    "dummy": "github:dkimura/dummy-repo#v0.0.1"
+  }
 }
