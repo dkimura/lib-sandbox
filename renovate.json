@@ -8,6 +8,7 @@
   ],
   "hostRules": [
     {
+      "matchHost": "https://github.com/dkimura",
       "hostName": "github.com",
       "encrypted": {
         "token": "wcFMA/xDdHCJBTolAQ/+PD6C+znPiJPHrQJ52ONGUSGvJ1CkBHvyVhwaOoyQF8Pjk0cYz6PvC5PAZ/Ywh4Y4W/Er2/0MBWscJAFElwcLUW4e7QKe/a+2DyI4LoRkU2jN9P+SclO2Ko7B1wOr2M82lamv1sp7UkIamdr0LzH/CwKLwnQKxTmpcRMoTc84QnGMuxcI01qyZ/tXR7LZr3Dogw86inOUnjRZW+W/MwCt1Moqj/TmDyf5jUS+EQJjm6zLFEYRoxpUu0kCdecp0eCzCa6IRV8G+4jjDYWROFdEcOQPPksb0RD2qnUTkORxrr7+K6GnD7nsqEF3Z4NpLDyiIixpFYEgVm81pBgelxix+s33BKDOPDAucfvRPKv4wJSdN8d5evCVXd/QscJ0m5Z9LYXxxDefnptA+G0hzmm3AcQhP1U9HFnHEvhbZwiQiGTP38A+fa7PGMLFD057vf7u2Cb0516E6D9IOjEMaiwvuzseI695NBJqacmL2qwm1VBplJuO8IRvTuMy95b9a1Bc0FsagPntztlttVwMVBqvfYLYGor5pctAgUIN7LW6dCyDkk7QH5TQsoJ10St+e8sEdiDMCwbnd6XDJA+3qgqGc6bIImoVVYnMIzyx9njZZptX/0ic08Tm5c6qopgM4rCGdxgCD0DyebkL8D1vOH5hR5wsXquO8aduK2bhXw/M6nbSdgG+WP+EyTGmXXGWJHDx1a5wieF4gdPjR6J2YU9oknbIPlvUAQYdMY8UNi7gVZtaDWZBvSaj4oycMsmb2d1/yep2zju7zW4Ks4dqr9z4AIpiNMu8I+CPB7Cr69YBKIRdgLh9607w5Dly7UI9IkJBmv1Ei6lj+zU"
