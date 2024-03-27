@@ -5,15 +5,5 @@
     ":automergeAll",
     ":maintainLockFilesWeekly",
     ":pinVersions"
-  ],
-  "hostRules": [
-    {
-      "matchHost": "https://npm.pkg.github.com/",
-      "hostType": "npm",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ//bBzxOcwrrXb/6ZlEfNa3wInGsvAMtNpB3aBAMZuJtTZu3wLBUf6CPcRNY3uFIu4tV8wcB34DSYnuzLnDBA0sBH5BWVlVF/tcOlb9Ep9kvTT8XqPZzXkFzQ82wmNGYB6RWI/2hkCehppZweO3dWuez3N5uHT6taEZFZtL1g5Qfp2zdzb61LDPqqEh6DIFuPep2eBH4O2TRG/PeSr5QzlpbjKJHx8Q5rC7kVbq/f200/1DZGx2K7ALTCkCHhVyqKMuikDgYkITRE9RgW5qp4h6hMFkhN1whPYoU58P+Sxrup0N7hnE+kK+qQjH7u8Mht2xZ58G6p34dbl9aJCMQPpjte0/PkuzlDFxxPyEdobdKX1AizSaL3ZezH8tLfFYc0Vg9qZRThIAZBv06cHlXKC7xg6WObQc66X/tgMmwUp9G3fzVHWhoEhKA8CYdWLxmy3VjcQ/7eYyXBymVORzWZptyMq9yRV08Fgr3nhuxWTPwqNx7KF5K9FaI0vfmKOoCR/oI4Z8qSFsdr8+MO0IcCCK/TUIdRKtWZ+v9cbQLackX/9RwA/8YrTx5odKXdp14EtOOjG4DCSD9RgT4zhqcACLMaDHG5pmkjDxE8Uqy4hCLTIdixEcPED7WogCgiZzk45NNSoaUS2fcP9EOoKLkAQn0HCXsFp4NNPztwL3C/frR7rSdgFhVOahwbQ6iirE6Cv6hcngHiB42E1BTV81kmFkzRW+ZZFeIlyroWtgOHKwST0fqKAs0C/iayrpMLpacoRkLQdNeUSBJQ/IqaA7E7yaGBbp0AFDg2TPox7hsSizShmHucU4SNApfGO8DGzVOJnGVUj9BEE72no"
-      }
-    }
-  ],
-  "npmrc": "@dkimura:registry=https://npm.pkg.github.com/"
+  ]
 }
