@@ -61,8 +61,8 @@ importers:
   packages/core:
     dependencies:
       '@dkimura/github-package-sandbox':
-        specifier: 0.0.3
-        version: 0.0.3
+        specifier: 0.0.4
+        version: 0.0.4
       '@repo/design-tokens':
         specifier: workspace:^
         version: link:../design-tokens
@@ -1474,9 +1474,9 @@ packages:
     engines: {node: '>=10.0.0'}
     dev: true
 
-  /@dkimura/github-package-sandbox@0.0.3:
-    resolution: {integrity: sha512-Yr+8c3dBPBZjIRre+abdH4L8i3ZgsBT3hcylccf6hDWj2rJesQsBmp59I2dJ64J4EwTIekhCmCufstRmfkidrw==, tarball: https://npm.pkg.github.com/download/@dkimura/github-package-sandbox/0.0.3/3a0ad4e473588cf405a9232af677a2f8bbe01681}
-    engines: {node: 21.7.1, pnpm: 8.15.4}
+  /@dkimura/github-package-sandbox@0.0.4:
+    resolution: {integrity: sha512-zNQTQok5vOfFOmLtdKwxCLE58RcylFBbw5eekv2/BQZx30y5WITvRRdg9zWI3l49gno4Cdfyg1CgUiaZpRtR9Q==, tarball: https://npm.pkg.github.com/download/@dkimura/github-package-sandbox/0.0.4/d990d51c1286dc430894fdf0e8de0e544faae203}
+    engines: {node: 21.7.1, pnpm: 8.15.5}
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
