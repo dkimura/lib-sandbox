@@ -1,8 +1,7 @@
 name: Chromatic
 
 on:
-  - push
-  - pull_request
+  push:
 
 jobs:
   chromatic:
@@ -14,6 +13,7 @@ jobs:
       STORE_PATH:
       TURBO_TEAM: 'lib-sandbox'
       TURBO_API: 'http://127.0.0.1:9080'
+      NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout 🛎
