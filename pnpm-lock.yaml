@@ -7,10 +7,6 @@ settings:
 importers:
 
   .:
-    dependencies:
-      dummy:
-        specifier: git+https://github.com/dkimura/dummy-repo#v0.0.1
-        version: git@github.com+dkimura/dummy-repo/755f9de1973607f7fa7bb87cee3849cb2b63f782
     devDependencies:
       prettier:
         specifier: 3.2.5
@@ -10342,9 +10338,3 @@ packages:
   /yocto-queue@0.1.0:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
-
-  git@github.com+dkimura/dummy-repo/755f9de1973607f7fa7bb87cee3849cb2b63f782:
-    resolution: {commit: 755f9de1973607f7fa7bb87cee3849cb2b63f782, repo: git@github.com:dkimura/dummy-repo.git, type: git}
-    name: dummy-repo
-    version: 0.0.1
-    dev: false
