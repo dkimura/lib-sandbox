@@ -13,6 +13,7 @@ jobs:
       STORE_PATH:
       TURBO_TEAM: 'lib-sandbox'
       TURBO_API: 'http://127.0.0.1:9080'
+      NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout 🛎
@@ -22,8 +23,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: .tool-versions
-        env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup pnpm 🧑‍💼
         uses: pnpm/action-setup@v2
@@ -45,8 +44,6 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: pnpm install --frozen-lockfile
-        env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: TurboRepo local server 💪
         uses: felixmosh/turborepo-gh-artifacts@v3
