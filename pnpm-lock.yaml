@@ -132,8 +132,8 @@ importers:
   tools/tsconfig:
     dependencies:
       '@tsconfig/vite-react':
-        specifier: 3.0.0
-        version: 3.0.0
+        specifier: 3.0.2
+        version: 3.0.2
 
 packages:
 
@@ -4018,8 +4018,8 @@ packages:
       path-browserify: 1.0.1
     dev: true
 
-  /@tsconfig/vite-react@3.0.0:
-    resolution: {integrity: sha512-haOFbphpavQ1+eyQjeqvlz7sRkQue/bS0GvFmraHml31Ufhv+7juUSc8PVe0In7sly+n+5zTLmzc287KciiGXg==}
+  /@tsconfig/vite-react@3.0.2:
+    resolution: {integrity: sha512-AFynAtE1Un3Rko20Ghe2mVC/QWD4rStJ2PnyIZU2kzC4UyWpf1YhAEY87GojH/XPZCY8Mdt27gsYyy+6l6HV+w==}
     dev: false
 
   /@types/aria-query@5.0.4:
