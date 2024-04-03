@@ -30,7 +30,7 @@
     "@repo/eslint-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
     "@storybook/react": "8.0.5",
-    "@types/react": "18.2.73",
+    "@types/react": "18.2.74",
     "@types/react-dom": "18.2.23",
     "eslint": "8.57.0",
     "eslint-plugin-react-refresh": "0.4.6",
