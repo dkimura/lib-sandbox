@@ -26,7 +26,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@pandacss/dev": "0.39.2",
+    "@pandacss/dev": "0.40.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
     "@storybook/react": "8.1.4",
