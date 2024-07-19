@@ -29,7 +29,7 @@
     "@pandacss/dev": "0.42.0",
     "@repo/eslint-config": "workspace:*",
     "@repo/tsconfig": "workspace:*",
-    "@storybook/react": "8.2.4",
+    "@storybook/react": "8.2.5",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "eslint": "9.3.0",
