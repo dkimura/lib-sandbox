@@ -40,7 +40,6 @@
     "vite": "5.3.5"
   },
   "dependencies": {
-    "@dkimura/github-package-sandbox": "0.0.4",
     "@repo/design-tokens": "workspace:^"
   }
 }
