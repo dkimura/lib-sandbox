@@ -9,17 +9,17 @@
     "@repo/core": "workspace:*"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "8.3.0",
-    "@storybook/addon-interactions": "8.3.0",
-    "@storybook/addon-links": "8.3.0",
-    "@storybook/addon-onboarding": "8.3.0",
-    "@storybook/blocks": "8.3.0",
-    "@storybook/react": "8.3.0",
-    "@storybook/react-vite": "8.3.0",
-    "@storybook/test": "8.3.0",
+    "@storybook/addon-essentials": "8.3.1",
+    "@storybook/addon-interactions": "8.3.1",
+    "@storybook/addon-links": "8.3.1",
+    "@storybook/addon-onboarding": "8.3.1",
+    "@storybook/blocks": "8.3.1",
+    "@storybook/react": "8.3.1",
+    "@storybook/react-vite": "8.3.1",
+    "@storybook/test": "8.3.1",
     "prop-types": "15.8.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "storybook": "8.3.0"
+    "storybook": "8.3.1"
   }
 }
