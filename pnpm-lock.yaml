@@ -104,8 +104,8 @@ importers:
   packages/design-tokens:
     devDependencies:
       style-dictionary:
-        specifier: 4.1.4
-        version: 4.1.4
+        specifier: 4.2.0
+        version: 4.2.0(prettier@3.3.3)
 
   tools/eslint-config:
     dependencies:
@@ -2967,10 +2967,12 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  style-dictionary@4.1.4:
-    resolution: {integrity: sha512-JCfF5/my6yTBp8qtcxdEY1JwR3JDq9fyosoJ+mpl/jMVZ0zVNsseIDJA/xMmm0P3GwuryHkwJwBMkm99HlXhfQ==}
+  style-dictionary@4.2.0:
+    resolution: {integrity: sha512-bjynavc9g80Zl9GpR3cw+ibqtbMbak9YXpuZteTsRTzoacUTjh7GLu1nlT1ukf264Nw5Vhu/ICQpY5xxOquvtA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
+    peerDependencies:
+      prettier: 3.x
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -6381,7 +6383,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-dictionary@4.1.4:
+  style-dictionary@4.2.0(prettier@3.3.3):
     dependencies:
       '@bundled-es-modules/deepmerge': 4.3.1
       '@bundled-es-modules/glob': 10.4.2
@@ -6394,6 +6396,7 @@ snapshots:
       json5: 2.2.3
       patch-package: 8.0.0
       path-unified: 0.1.0
+      prettier: 3.3.3
       tinycolor2: 1.6.0
 
   supports-color@7.2.0:
