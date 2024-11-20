@@ -10,7 +10,7 @@
     "eslint-config-airbnb-typescript": "18.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-turbo": "2.3.0",
-    "eslint-plugin-testing-library": "6.4.0"
+    "eslint-plugin-testing-library": "6.5.0"
   },
   "peerDependencies": {
     "eslint": "9.15.0"
