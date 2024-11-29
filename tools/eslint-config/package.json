@@ -13,9 +13,9 @@
     "eslint-plugin-testing-library": "7.0.0"
   },
   "peerDependencies": {
-    "eslint": "9.15.0"
+    "eslint": "9.16.0"
   },
   "devDependencies": {
-    "eslint": "9.15.0"
+    "eslint": "9.16.0"
   }
 }
