@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@storybook/addon-essentials':
         specifier: 8.4.7
-        version: 8.4.7(@types/react@18.3.13)(storybook@8.4.7(prettier@3.4.2))
+        version: 8.4.7(@types/react@18.3.14)(storybook@8.4.7(prettier@3.4.2))
       '@storybook/addon-interactions':
         specifier: 8.4.7
         version: 8.4.7(storybook@8.4.7(prettier@3.4.2))
@@ -77,11 +77,11 @@ importers:
         specifier: 8.4.7
         version: 8.4.7(@storybook/test@8.4.7(storybook@8.4.7(prettier@3.4.2)))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.7(prettier@3.4.2))(typescript@5.7.2)
       '@types/react':
-        specifier: 18.3.13
-        version: 18.3.13
+        specifier: 18.3.14
+        version: 18.3.14
       '@types/react-dom':
-        specifier: 18.3.1
-        version: 18.3.1
+        specifier: 18.3.2
+        version: 18.3.2
       eslint:
         specifier: 9.16.0
         version: 9.16.0
@@ -1025,11 +1025,11 @@ packages:
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
-  '@types/react-dom@18.3.1':
-    resolution: {integrity: sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==}
+  '@types/react-dom@18.3.2':
+    resolution: {integrity: sha512-Fqp+rcvem9wEnGr3RY8dYNvSQ8PoLqjZ9HLgaPUOjJJD120uDyOxOjc/39M4Kddp9JQCxpGQbnhVQF0C0ncYVg==}
 
-  '@types/react@18.3.13':
-    resolution: {integrity: sha512-ii/gswMmOievxAJed4PAHT949bpYjPKXvXo1v6cRB/kqc2ZR4n+SgyCyvyc5Fec5ez8VnUumI1Vk7j6fRyRogg==}
+  '@types/react@18.3.14':
+    resolution: {integrity: sha512-NzahNKvjNhVjuPBQ+2G7WlxstQ+47kXZNHlUvFakDViuIEfGY926GqhMueQFZ7woG+sPiQKlF36XfrIUVSUfFg==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -3511,10 +3511,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@mdx-js/react@3.1.0(@types/react@18.3.13)(react@18.3.1)':
+  '@mdx-js/react@3.1.0(@types/react@18.3.14)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 18.3.13
+      '@types/react': 18.3.14
       react: 18.3.1
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3779,9 +3779,9 @@ snapshots:
       storybook: 8.4.7(prettier@3.4.2)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-docs@8.4.7(@types/react@18.3.13)(storybook@8.4.7(prettier@3.4.2))':
+  '@storybook/addon-docs@8.4.7(@types/react@18.3.14)(storybook@8.4.7(prettier@3.4.2))':
     dependencies:
-      '@mdx-js/react': 3.1.0(@types/react@18.3.13)(react@18.3.1)
+      '@mdx-js/react': 3.1.0(@types/react@18.3.14)(react@18.3.1)
       '@storybook/blocks': 8.4.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.7(prettier@3.4.2))
       '@storybook/csf-plugin': 8.4.7(storybook@8.4.7(prettier@3.4.2))
       '@storybook/react-dom-shim': 8.4.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(storybook@8.4.7(prettier@3.4.2))
@@ -3792,12 +3792,12 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@storybook/addon-essentials@8.4.7(@types/react@18.3.13)(storybook@8.4.7(prettier@3.4.2))':
+  '@storybook/addon-essentials@8.4.7(@types/react@18.3.14)(storybook@8.4.7(prettier@3.4.2))':
     dependencies:
       '@storybook/addon-actions': 8.4.7(storybook@8.4.7(prettier@3.4.2))
       '@storybook/addon-backgrounds': 8.4.7(storybook@8.4.7(prettier@3.4.2))
       '@storybook/addon-controls': 8.4.7(storybook@8.4.7(prettier@3.4.2))
-      '@storybook/addon-docs': 8.4.7(@types/react@18.3.13)(storybook@8.4.7(prettier@3.4.2))
+      '@storybook/addon-docs': 8.4.7(@types/react@18.3.14)(storybook@8.4.7(prettier@3.4.2))
       '@storybook/addon-highlight': 8.4.7(storybook@8.4.7(prettier@3.4.2))
       '@storybook/addon-measure': 8.4.7(storybook@8.4.7(prettier@3.4.2))
       '@storybook/addon-outline': 8.4.7(storybook@8.4.7(prettier@3.4.2))
@@ -4060,11 +4060,11 @@ snapshots:
 
   '@types/prop-types@15.7.13': {}
 
-  '@types/react-dom@18.3.1':
+  '@types/react-dom@18.3.2':
     dependencies:
-      '@types/react': 18.3.13
+      '@types/react': 18.3.14
 
-  '@types/react@18.3.13':
+  '@types/react@18.3.14':
     dependencies:
       '@types/prop-types': 15.7.13
       csstype: 3.1.3
