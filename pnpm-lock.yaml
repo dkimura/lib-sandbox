@@ -104,8 +104,8 @@ importers:
   packages/design-tokens:
     devDependencies:
       style-dictionary:
-        specifier: 4.2.0
-        version: 4.2.0(prettier@3.4.2)
+        specifier: 4.3.0
+        version: 4.3.0
 
   tools/eslint-config:
     dependencies:
@@ -2465,8 +2465,8 @@ packages:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
 
-  path-unified@0.1.0:
-    resolution: {integrity: sha512-/Oaz9ZJforrkmFrwkR/AcvjVsCAwGSJHO0X6O6ISj8YeFbATjIEBXLDcZfnK3MO4uvCBrJTdVIxdOc79PMqSdg==}
+  path-unified@0.2.0:
+    resolution: {integrity: sha512-MNKqvrKbbbb5p7XHXV6ZAsf/1f/yJQa13S/fcX0uua8ew58Tgc6jXV+16JyAbnR/clgCH+euKDxrF2STxMHdrg==}
 
   path@0.12.7:
     resolution: {integrity: sha512-aXXC6s+1w7otVF9UletFkFcDsJeO7lSZBPUQhtb5O0xJe8LtYhj/GxldoL09bBj9+ZmE2hNoHqQSFMN5fikh4Q==}
@@ -2825,12 +2825,10 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  style-dictionary@4.2.0:
-    resolution: {integrity: sha512-bjynavc9g80Zl9GpR3cw+ibqtbMbak9YXpuZteTsRTzoacUTjh7GLu1nlT1ukf264Nw5Vhu/ICQpY5xxOquvtA==}
+  style-dictionary@4.3.0:
+    resolution: {integrity: sha512-bwasoBSGzIUzeZKR9HKD+qaTFzcVc3SAx+ziD41DAbDZ8OGFnfXfU3Nb3xdZb8VhxNKT21MowR5jOFvdJE9ayQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
-    peerDependencies:
-      prettier: 3.x
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -5739,7 +5737,7 @@ snapshots:
 
   path-type@4.0.0: {}
 
-  path-unified@0.1.0: {}
+  path-unified@0.2.0: {}
 
   path@0.12.7:
     dependencies:
@@ -6145,7 +6143,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-dictionary@4.2.0(prettier@3.4.2):
+  style-dictionary@4.3.0:
     dependencies:
       '@bundled-es-modules/deepmerge': 4.3.1
       '@bundled-es-modules/glob': 10.4.2
@@ -6157,7 +6155,7 @@ snapshots:
       is-plain-obj: 4.1.0
       json5: 2.2.3
       patch-package: 8.0.0
-      path-unified: 0.1.0
+      path-unified: 0.2.0
       prettier: 3.4.2
       tinycolor2: 1.6.0
 
