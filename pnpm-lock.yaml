@@ -104,8 +104,8 @@ importers:
   packages/design-tokens:
     devDependencies:
       style-dictionary:
-        specifier: 4.3.1
-        version: 4.3.1
+        specifier: 4.3.2
+        version: 4.3.2
 
   tools/eslint-config:
     dependencies:
@@ -2893,8 +2893,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  style-dictionary@4.3.1:
-    resolution: {integrity: sha512-J0oXrzC+kSBMrtcZWC5G3rcHazgPOOUh/xRgNTg9ONNtbN/IZuS5GVRzC3cd8Hapfumk6j82zi/igMFYWrYGMw==}
+  style-dictionary@4.3.2:
+    resolution: {integrity: sha512-kBDUWWWpaubHsMsA0pRegKA1+ocYFTACj+Y5o/FeMGGhTPBXigH/hVr3ZVwKVx2ITiuNGJY3SrbrW1cOJIsutA==}
     engines: {node: '>=18.0.0'}
     hasBin: true
 
@@ -6348,7 +6348,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  style-dictionary@4.3.1:
+  style-dictionary@4.3.2:
     dependencies:
       '@bundled-es-modules/deepmerge': 4.3.1
       '@bundled-es-modules/glob': 10.4.2
