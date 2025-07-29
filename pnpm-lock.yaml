@@ -23,7 +23,7 @@ importers:
     devDependencies:
       '@storybook/addon-essentials':
         specifier: 8.6.14
-        version: 8.6.14(@types/react@19.1.8)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
+        version: 8.6.14(@types/react@19.1.9)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/addon-interactions':
         specifier: 8.6.14
         version: 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
@@ -77,11 +77,11 @@ importers:
         specifier: 9.0.18
         version: 9.0.18(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))(typescript@5.8.3)
       '@types/react':
-        specifier: 19.1.8
-        version: 19.1.8
+        specifier: 19.1.9
+        version: 19.1.9
       '@types/react-dom':
-        specifier: 19.1.6
-        version: 19.1.6(@types/react@19.1.8)
+        specifier: 19.1.7
+        version: 19.1.7(@types/react@19.1.9)
       eslint:
         specifier: 9.32.0
         version: 9.32.0
@@ -907,13 +907,13 @@ packages:
   '@types/node@22.16.5':
     resolution: {integrity: sha512-bJFoMATwIGaxxx8VJPeM8TonI8t579oRvgAuT8zFugJsJZgzqv0Fu8Mhp68iecjzG7cnN3mO2dJQ5uUM2EFrgQ==}
 
-  '@types/react-dom@19.1.6':
-    resolution: {integrity: sha512-4hOiT/dwO8Ko0gV1m/TJZYk3y0KBnY9vzDh7W+DH17b2HFSOGgdj33dhihPeuy3l0q23+4e+hoXHV6hCC4dCXw==}
+  '@types/react-dom@19.1.7':
+    resolution: {integrity: sha512-i5ZzwYpqjmrKenzkoLM2Ibzt6mAsM7pxB6BCIouEVVmgiqaMj1TjaK7hnA36hbW5aZv20kx7Lw6hWzPWg0Rurw==}
     peerDependencies:
       '@types/react': ^19.0.0
 
-  '@types/react@19.1.8':
-    resolution: {integrity: sha512-AwAfQ2Wa5bCx9WP8nZL2uMZWod7J7/JSplxbTmBQ5ms6QpqNYm672H0Vu9ZVKVngQ+ii4R/byguVEUZQyeg44g==}
+  '@types/react@19.1.9':
+    resolution: {integrity: sha512-WmdoynAX8Stew/36uTSVMcLJJ1KRh6L3IZRx1PZ7qJtBqT3dYTgyDTx8H1qoRghErydW7xw9mSJ3wS//tCRpFA==}
 
   '@types/resolve@1.20.6':
     resolution: {integrity: sha512-A4STmOXPhMUtHH+S6ymgE2GiBSMqf4oTvcQZMcHzokuTLVYzXTB8ttjcgxOVaAp2lGwEdzZ0J+cRbbeevQj1UQ==}
@@ -3447,10 +3447,10 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@mdx-js/react@3.1.0(@types/react@19.1.8)(react@19.1.1)':
+  '@mdx-js/react@3.1.0(@types/react@19.1.9)(react@19.1.1)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 19.1.8
+      '@types/react': 19.1.9
       react: 19.1.1
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3730,9 +3730,9 @@ snapshots:
       storybook: 9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2)
       ts-dedent: 2.2.0
 
-  '@storybook/addon-docs@8.6.14(@types/react@19.1.8)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))':
+  '@storybook/addon-docs@8.6.14(@types/react@19.1.9)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))':
     dependencies:
-      '@mdx-js/react': 3.1.0(@types/react@19.1.8)(react@19.1.1)
+      '@mdx-js/react': 3.1.0(@types/react@19.1.9)(react@19.1.1)
       '@storybook/blocks': 8.6.14(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/csf-plugin': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/react-dom-shim': 8.6.14(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
@@ -3743,12 +3743,12 @@ snapshots:
     transitivePeerDependencies:
       - '@types/react'
 
-  '@storybook/addon-essentials@8.6.14(@types/react@19.1.8)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))':
+  '@storybook/addon-essentials@8.6.14(@types/react@19.1.9)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))':
     dependencies:
       '@storybook/addon-actions': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/addon-backgrounds': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/addon-controls': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
-      '@storybook/addon-docs': 8.6.14(@types/react@19.1.8)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
+      '@storybook/addon-docs': 8.6.14(@types/react@19.1.9)(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/addon-highlight': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/addon-measure': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
       '@storybook/addon-outline': 8.6.14(storybook@9.0.18(@testing-library/dom@10.4.0)(prettier@3.6.2))
@@ -3989,11 +3989,11 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  '@types/react-dom@19.1.6(@types/react@19.1.8)':
+  '@types/react-dom@19.1.7(@types/react@19.1.9)':
     dependencies:
-      '@types/react': 19.1.8
+      '@types/react': 19.1.9
 
-  '@types/react@19.1.8':
+  '@types/react@19.1.9':
     dependencies:
       csstype: 3.1.3
 
