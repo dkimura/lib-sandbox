@@ -43,8 +43,8 @@ importers:
         specifier: 10.1.11
         version: 10.1.11(esbuild@0.27.2)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(rollup@4.54.0)(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(vite@7.3.0(lightningcss@1.30.2))
       '@storybook/test':
-        specifier: 8.6.14
-        version: 8.6.14(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
+        specifier: 8.6.15
+        version: 8.6.15(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
       prop-types:
         specifier: 15.8.1
         version: 15.8.1
@@ -1016,6 +1016,11 @@ packages:
     peerDependencies:
       storybook: ^8.6.14
 
+  '@storybook/instrumenter@8.6.15':
+    resolution: {integrity: sha512-TvHR/+yyIAOp/1bLulFai2kkhIBtAlBw7J6Jd9DKyInoGhTWNE1G1Y61jD5GWXX29AlwaHfzGUaX5NL1K+FJpg==}
+    peerDependencies:
+      storybook: ^8.6.15
+
   '@storybook/react-dom-shim@10.1.11':
     resolution: {integrity: sha512-o8WPhRlZbORUWG9lAgDgJP0pi905VHJUFJr1Kp8980gHqtlemtnzjPxKy5vFwj6glNhAlK8SS8OOYzWP7hloTQ==}
     peerDependencies:
@@ -1053,6 +1058,11 @@ packages:
     resolution: {integrity: sha512-GkPNBbbZmz+XRdrhMtkxPotCLOQ1BaGNp/gFZYdGDk2KmUWBKmvc5JxxOhtoXM2703IzNFlQHSSNnhrDZYuLlw==}
     peerDependencies:
       storybook: ^8.6.14
+
+  '@storybook/test@8.6.15':
+    resolution: {integrity: sha512-EwquDRUDVvWcZds3T2abmB5wSN/Vattal4YtZ6fpBlIUqONV4o/cOBX39cFfQSUCBrIXIjQ6RmapQCHK/PvBYw==}
+    peerDependencies:
+      storybook: ^8.6.15
 
   '@testing-library/dom@10.4.0':
     resolution: {integrity: sha512-pemlzrSESWbdAloYml3bAJMEfNh1Z7EduzqPKprCH5S341frlpYnUEW0H72dLxa6IsYr+mPno20GiSm+h9dEdQ==}
@@ -4381,6 +4391,12 @@ snapshots:
       '@vitest/utils': 2.1.9
       storybook: 10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
 
+  '@storybook/instrumenter@8.6.15(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@vitest/utils': 2.1.9
+      storybook: 10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+
   '@storybook/react-dom-shim@10.1.11(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
     dependencies:
       react: 19.2.3
@@ -4433,6 +4449,17 @@ snapshots:
     dependencies:
       '@storybook/global': 5.0.0
       '@storybook/instrumenter': 8.6.14(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
+      '@testing-library/dom': 10.4.0
+      '@testing-library/jest-dom': 6.5.0
+      '@testing-library/user-event': 14.5.2(@testing-library/dom@10.4.0)
+      '@vitest/expect': 2.0.5
+      '@vitest/spy': 2.0.5
+      storybook: 10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+
+  '@storybook/test@8.6.15(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))':
+    dependencies:
+      '@storybook/global': 5.0.0
+      '@storybook/instrumenter': 8.6.15(storybook@10.1.11(@testing-library/dom@10.4.0)(prettier@3.7.4)(react-dom@19.2.3(react@19.2.3))(react@19.2.3))
       '@testing-library/dom': 10.4.0
       '@testing-library/jest-dom': 6.5.0
       '@testing-library/user-event': 14.5.2(@testing-library/dom@10.4.0)
