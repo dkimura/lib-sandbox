@@ -22,8 +22,8 @@
   },
   "types": "./dist/index.d.ts",
   "peerDependencies": {
-    "react": "19.2.7",
-    "react-dom": "19.2.7"
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
   },
   "devDependencies": {
     "@pandacss/dev": "1.11.5",
@@ -34,8 +34,8 @@
     "@types/react-dom": "19.2.3",
     "eslint": "10.7.0",
     "eslint-plugin-react-refresh": "0.5.3",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "typescript": "7.0.2",
     "vite": "8.1.5"
   },
