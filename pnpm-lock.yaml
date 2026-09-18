@@ -262,8 +262,8 @@ importers:
   packages/design-tokens:
     devDependencies:
       style-dictionary:
-        specifier: 5.5.3
-        version: 5.5.3
+        specifier: 5.5.4
+        version: 5.5.4
 
   tools/eslint-config:
     dependencies:
@@ -3401,11 +3401,6 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  prettier@3.9.6:
-    resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
-    engines: {node: '>=14'}
-    hasBin: true
-
   prettier@3.9.8:
     resolution: {integrity: sha512-WRFq3Wn3WId7LLROfMLdH7xaFr2jR62wU8nLO6rQUOLOxNZUviyJQs1M0iIhLexSFy+L+w0ch66wtoO2jRjG0A==}
     engines: {node: '>=14'}
@@ -3667,8 +3662,8 @@ packages:
     resolution: {integrity: sha512-SlyRoSkdh1dYP0PzclLE7r0M9sgbFKKMFXpFRUMNuKhQSbC6VQIGzq3E0qsfvGJaUFJPGv6Ws1NZ/haTAjfbMA==}
     engines: {node: '>=12'}
 
-  style-dictionary@5.5.3:
-    resolution: {integrity: sha512-vt4wLw+3H47XLW5Awvq//FqV2BUMElGdhmuUapi2oXNERY4tjFJ6Cd+G3HYjV+9JWYHNFPbmDWwLN8wHzpaEkQ==}
+  style-dictionary@5.5.4:
+    resolution: {integrity: sha512-7wxrDIwaoAL4UF3OHqDaqJNDUkfUkqMLGRl+S+zDoWaPc8onlhitEUhseIETrD0IzC7E6n9by4sMADap/S2Qhw==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
@@ -7157,8 +7152,6 @@ snapshots:
 
   prettier@3.2.5: {}
 
-  prettier@3.9.6: {}
-
   prettier@3.9.8: {}
 
   pretty-format@27.5.1:
@@ -7510,7 +7503,7 @@ snapshots:
 
   strip-indent@4.1.1: {}
 
-  style-dictionary@5.5.3:
+  style-dictionary@5.5.4:
     dependencies:
       '@bundled-es-modules/deepmerge': 4.3.2
       '@bundled-es-modules/glob': 13.0.6
@@ -7523,7 +7516,7 @@ snapshots:
       is-plain-obj: 4.1.0
       json5: 2.2.3
       path-unified: 0.2.0
-      prettier: 3.9.6
+      prettier: 3.9.8
       tinycolor2: 1.6.0
 
   supports-color@7.2.0:
