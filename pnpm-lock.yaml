@@ -7,153 +7,153 @@ importers:
     configDependencies: {}
     packageManagerDependencies:
       pnpm:
-        specifier: 12.9.1
-        version: 12.9.1
+        specifier: 12.10.1
+        version: 12.10.1
 
 packages:
 
-  '@pnpm/exe.android-arm64@12.9.1':
-    resolution: {integrity: sha512-Hgm1XdqMTfBC8PdGLL+NjZWv4xyi7D6XNrN9fb24XGYlyTBmUtdCefKnCLmHujShRD8BEO1zqM30SNcKBDLysw==}
+  '@pnpm/exe.android-arm64@12.10.1':
+    resolution: {integrity: sha512-CVTlHPwNvadQCJD9bGSMzWIhFX8QpjtqC2c27dhdnn/9iKzEjZ3qL62o3gHpKbIuo6qn4WxTKRoaokgNdReBig==}
     cpu: [arm64]
     os: [android]
 
-  '@pnpm/exe.android-x64@12.9.1':
-    resolution: {integrity: sha512-WDGCe6jZRVZP3RC/q6hOkZylkPkIQIi1/GcrR/d/YzbihhAHXCczrk+UYnV5TgbsEnAYO7Cx+2rX3nfhHvy24w==}
+  '@pnpm/exe.android-x64@12.10.1':
+    resolution: {integrity: sha512-NFiYLIaodY7da0XIebwcU3JoP7IK/lzF7zgKSSP+9H+QcFnQ1GDfBkuBKCYJzZ+Xu0WH54neIPLBBCaOjaaauA==}
     cpu: [x64]
     os: [android]
 
-  '@pnpm/exe.darwin-arm64@12.9.1':
-    resolution: {integrity: sha512-+7iiEEBgYN9szPWUnAuN6eOVMTI6Hrki5bcuC9n9xl9tTnT53Tpxpo45Hml+W4IrAU0d+Tmd0sPnVIbX59PD6w==}
+  '@pnpm/exe.darwin-arm64@12.10.1':
+    resolution: {integrity: sha512-0O8tdQ8ijlPJudXspLMTcitMkdBEz6uUflazL5uQE0WMs85oQIp0U+5hfEktMFB64QqEhjqlvvujTwbzdr9oMg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@pnpm/exe.darwin-x64@12.9.1':
-    resolution: {integrity: sha512-SK7TxJiR12GbJZGffRFHItkc+Mx+99v6xMMJ9/X//8NwWV1wo17a2bwfGI8qZpl17YwsrmPEFOOqhzE1GIlrtQ==}
+  '@pnpm/exe.darwin-x64@12.10.1':
+    resolution: {integrity: sha512-ud+1/uZOKEo8P/AsPynOJc/LNwfI0j6WwCElibj71rU9l4nIBnsSn+wWTIPZPkZ4BBSH5+82azSnAARMyJ1lNA==}
     cpu: [x64]
     os: [darwin]
 
-  '@pnpm/exe.freebsd-x64@12.9.1':
-    resolution: {integrity: sha512-4AjLk6uvTs2iO6wMit2hcxJ2M32xb7OV5SNFk+w6G8/NzcjcMB7ENEpyeXyLiP0kcnp8uaCGUct2NfrLCJ35eQ==}
+  '@pnpm/exe.freebsd-x64@12.10.1':
+    resolution: {integrity: sha512-mj9PE5rf8uAfQQ2K66HSATMSut+lNiB4eSqFd5+azFVCMnxNSy/32xpZQJT21PhnN3Y4qbK+iKHe5nWAxSuRhw==}
     cpu: [x64]
     os: [freebsd]
 
-  '@pnpm/exe.linux-arm64-musl@12.9.1':
-    resolution: {integrity: sha512-dZL2ES1ckDWM9v+EtxoOklZ0WNdtayooi9iLiDUubopudX3zXPNR2mlrxBRgjbDgECOndQen2SmyxL5eZiBuKw==}
+  '@pnpm/exe.linux-arm64-musl@12.10.1':
+    resolution: {integrity: sha512-xba+00wZJ8Um6rBJJjWl88uJj0tydB8dtomvjlCLvi0uL32vpa9CRP8Vv26FIXvbiZ1bo2RCzYt/eChxJVV52w==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@pnpm/exe.linux-arm64@12.9.1':
-    resolution: {integrity: sha512-cx+uF6xqwEtm7B8NV+1ve0xBg9gcuzQZ5R+0WgOWvKG/h978UljS6BgWs1ipIGuGgUdeVhm3PKmBltXIcczLXA==}
+  '@pnpm/exe.linux-arm64@12.10.1':
+    resolution: {integrity: sha512-oBdMp69ScC9UnniG4qZAQVr2fBDSXjm4yk/72vkEVyrlwS23yMxcRQl7Qdo3sgXPAygY6TWnPRKm4rXzjoyW7w==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@pnpm/exe.linux-ppc64@12.9.1':
-    resolution: {integrity: sha512-MpjPsy4XR17zAtLziQZfsN+wveWa/bUJggZtwfo3+SuyRmXnSvVkFD4+v8/3RTWyYaM6mwLUTjZDJ+g3urL+ew==}
+  '@pnpm/exe.linux-ppc64@12.10.1':
+    resolution: {integrity: sha512-Yyb3wu09h3c7mLme270uHFiVaAIUHC411Ru9LIU2BKUIstrGlXa9OqqVWoXaRgYRdFdOFknkwG7GNn6ygwLbnw==}
     cpu: [ppc64]
     os: [linux]
     libc: [glibc]
 
-  '@pnpm/exe.linux-riscv64@12.9.1':
-    resolution: {integrity: sha512-Oo67TKqqH+Bno+L6X7Xyorwp1QG82zKIkL0vbo1x2kcPTDiyPbdM+d6lIs4+hzeB1KHT5FDoGzZj2dad7Ft+eg==}
+  '@pnpm/exe.linux-riscv64@12.10.1':
+    resolution: {integrity: sha512-PdkeUFFkybknnGkWP0H22eMpIiS4OZXL5BcQzF4lh+vmrW3IaC2HOkbANKgot/PKO0Kl77pzA/6PKFxgbgfXIQ==}
     cpu: [riscv64]
     os: [linux]
     libc: [glibc]
 
-  '@pnpm/exe.linux-s390x@12.9.1':
-    resolution: {integrity: sha512-QAD5FRCdW36HfD58BV7DoDm6z8yv+GgSqcUV1+ERwYjpVQuG6ZTpf5o0x3KDas8eTLIW7MLYVdDdlAurWeArEg==}
+  '@pnpm/exe.linux-s390x@12.10.1':
+    resolution: {integrity: sha512-1okKuHKJwJPAbofDxfhZWAUxEWtee4ZSf7Pah8kcvocaJkf2WxFJ5KVTiNIvDml5GLidDQsgf7Pcf/WHbCak7Q==}
     cpu: [s390x]
     os: [linux]
     libc: [glibc]
 
-  '@pnpm/exe.linux-x64-musl@12.9.1':
-    resolution: {integrity: sha512-mQDhBsGqcTkrLQM4q5igmRFcr6EAl4UM/FGawY+0CWGcqPpUmYUvDy9LHy80xxkHIWVJ886gvvso2XOjfav1Jw==}
+  '@pnpm/exe.linux-x64-musl@12.10.1':
+    resolution: {integrity: sha512-e6IqzVNkPa7srFKJKnY23uWJ+qz0LaRWiTUo/sHfFXRRMRzB5uNOr6qWWip/jqhdGwU91n9J7LrEYZ6e0tRczw==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@pnpm/exe.linux-x64@12.9.1':
-    resolution: {integrity: sha512-+M5N74hM4fc87AAckxx/UIW+dUnWf2eko+HchJs/NZUxehLhekNyMI/GNaNXlvd+kWR+97XXBD51XRkkNiUtrA==}
+  '@pnpm/exe.linux-x64@12.10.1':
+    resolution: {integrity: sha512-ZByV0DRgWzGaDSjT5ddRBASdwz+r/qPMYh7o6RGmPQjtRGNFbSl94xY2DcAM8mqCOZJUUDtAXQ+wpBXcdpKlkg==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@pnpm/exe.win32-arm64@12.9.1':
-    resolution: {integrity: sha512-mI28C2wxobrDi6x1OYhBRyG10hnDq/4sEIyy5RzoX6LB4kLuv6K/d25HOpMwlW20cuM4M72k9NZpOdcmUxMbEA==}
+  '@pnpm/exe.win32-arm64@12.10.1':
+    resolution: {integrity: sha512-I7QZHcjioG7orFeCRUFUHByJ1G0zFPnAlaGGyrUvb6MGkv5oeNwNPl7t+Gp+7zHfnMcgLGJ1a+Wfim0IDw3lOw==}
     cpu: [arm64]
     os: [win32]
 
-  '@pnpm/exe.win32-x64@12.9.1':
-    resolution: {integrity: sha512-SWoDMT0oD7NrDSIoPpkKD09D9fAQKNjwFZ3lezlCUhAfXxMv70zsfrNT2/P+GoCK2kefXF9OysUZkH1l5vvvfA==}
+  '@pnpm/exe.win32-x64@12.10.1':
+    resolution: {integrity: sha512-4WJFdp58EKlCj0zLobrXU0vpszSZIr4X/3y/uNbAQqGW0zE+VdruZB0gFc3L2kzsUzVwTYbaCn+XEhnCYSAlTg==}
     cpu: [x64]
     os: [win32]
 
-  pnpm@12.9.1:
-    resolution: {integrity: sha512-BrBV//XNINwSeB3hc87TMQzglRvy7GICEaFgRdVETVyTpmMhB2TvKaZTphBFm6A2jw50+E2AxUcjz5Wq57wNbQ==}
+  pnpm@12.10.1:
+    resolution: {integrity: sha512-ukCjfrGjcNYP6oxM8dNkwTvMzvUY6YrSvO6VT1OdONo3RY5YJho/pV4GUjRQ6g//+fSXsTW+QfLBXBZCusrObA==}
     engines: {node: '>=18.*'}
     hasBin: true
 
 snapshots:
 
-  '@pnpm/exe.android-arm64@12.9.1':
+  '@pnpm/exe.android-arm64@12.10.1':
     optional: true
 
-  '@pnpm/exe.android-x64@12.9.1':
+  '@pnpm/exe.android-x64@12.10.1':
     optional: true
 
-  '@pnpm/exe.darwin-arm64@12.9.1':
+  '@pnpm/exe.darwin-arm64@12.10.1':
     optional: true
 
-  '@pnpm/exe.darwin-x64@12.9.1':
+  '@pnpm/exe.darwin-x64@12.10.1':
     optional: true
 
-  '@pnpm/exe.freebsd-x64@12.9.1':
+  '@pnpm/exe.freebsd-x64@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-arm64-musl@12.9.1':
+  '@pnpm/exe.linux-arm64-musl@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-arm64@12.9.1':
+  '@pnpm/exe.linux-arm64@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-ppc64@12.9.1':
+  '@pnpm/exe.linux-ppc64@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-riscv64@12.9.1':
+  '@pnpm/exe.linux-riscv64@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-s390x@12.9.1':
+  '@pnpm/exe.linux-s390x@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-x64-musl@12.9.1':
+  '@pnpm/exe.linux-x64-musl@12.10.1':
     optional: true
 
-  '@pnpm/exe.linux-x64@12.9.1':
+  '@pnpm/exe.linux-x64@12.10.1':
     optional: true
 
-  '@pnpm/exe.win32-arm64@12.9.1':
+  '@pnpm/exe.win32-arm64@12.10.1':
     optional: true
 
-  '@pnpm/exe.win32-x64@12.9.1':
+  '@pnpm/exe.win32-x64@12.10.1':
     optional: true
 
-  pnpm@12.9.1:
+  pnpm@12.10.1:
     optionalDependencies:
-      '@pnpm/exe.android-arm64': 12.9.1
-      '@pnpm/exe.android-x64': 12.9.1
-      '@pnpm/exe.darwin-arm64': 12.9.1
-      '@pnpm/exe.darwin-x64': 12.9.1
-      '@pnpm/exe.freebsd-x64': 12.9.1
-      '@pnpm/exe.linux-arm64': 12.9.1
-      '@pnpm/exe.linux-arm64-musl': 12.9.1
-      '@pnpm/exe.linux-ppc64': 12.9.1
-      '@pnpm/exe.linux-riscv64': 12.9.1
-      '@pnpm/exe.linux-s390x': 12.9.1
-      '@pnpm/exe.linux-x64': 12.9.1
-      '@pnpm/exe.linux-x64-musl': 12.9.1
-      '@pnpm/exe.win32-arm64': 12.9.1
-      '@pnpm/exe.win32-x64': 12.9.1
+      '@pnpm/exe.android-arm64': 12.10.1
+      '@pnpm/exe.android-x64': 12.10.1
+      '@pnpm/exe.darwin-arm64': 12.10.1
+      '@pnpm/exe.darwin-x64': 12.10.1
+      '@pnpm/exe.freebsd-x64': 12.10.1
+      '@pnpm/exe.linux-arm64': 12.10.1
+      '@pnpm/exe.linux-arm64-musl': 12.10.1
+      '@pnpm/exe.linux-ppc64': 12.10.1
+      '@pnpm/exe.linux-riscv64': 12.10.1
+      '@pnpm/exe.linux-s390x': 12.10.1
+      '@pnpm/exe.linux-x64': 12.10.1
+      '@pnpm/exe.linux-x64-musl': 12.10.1
+      '@pnpm/exe.win32-arm64': 12.10.1
+      '@pnpm/exe.win32-x64': 12.10.1
 
 ---
 lockfileVersion: '9.0'
@@ -223,8 +223,8 @@ importers:
         version: link:../design-tokens
     devDependencies:
       '@pandacss/dev':
-        specifier: 2.1.1
-        version: 2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)
+        specifier: 2.1.2
+        version: 2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)
       '@repo/eslint-config':
         specifier: workspace:*
         version: link:../../tools/eslint-config
@@ -1034,77 +1034,77 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@pandacss/cli@2.1.1':
-    resolution: {integrity: sha512-x/cheSybexsN7mVMDWQ7mi6use1PYPQHG9JYYpkUA0Dl6Oadpf+R2HBg0Dgg7yXRGAvU1a6i1UnLgU3UTvY9Ng==}
+  '@pandacss/cli@2.1.2':
+    resolution: {integrity: sha512-KiiJgxKF9R9mOyS08Rmo8VmZtS7Pa9qmq4F5Mt58YFEWypZ1NSW5GLrA8RijXKb7EMELuxbPGOedAa6j3kxa5w==}
     engines: {node: '>=22'}
     hasBin: true
 
-  '@pandacss/compiler-darwin-arm64@2.1.1':
-    resolution: {integrity: sha512-tZEVKrkRiMhC4700qM7knm1P3Nei3Kv6NuRTyg+8jG3J+pa2+rgWFVrVeqn83RsqNiSqUpKills4QBqblmFElg==}
+  '@pandacss/compiler-darwin-arm64@2.1.2':
+    resolution: {integrity: sha512-JacyrjQ7jzi/s9Hf5njhscaTL1XY2MFCgYAw0QY8NWq7iBNUOe3FX/yqNMjiQ8Bzkn/jTxlkOoZcpCitWdUq6w==}
     engines: {node: '>=22'}
     cpu: [arm64]
     os: [darwin]
 
-  '@pandacss/compiler-darwin-x64@2.1.1':
-    resolution: {integrity: sha512-0A1xm5gy52KPS5BhVdnaXicejBTPpweEehEuatQDESsABGe6mSZYsgTsG3D4MSCSJMN5GKPM5/YzbFB0ytshWg==}
+  '@pandacss/compiler-darwin-x64@2.1.2':
+    resolution: {integrity: sha512-fGhQY5aaf63rKnZS4wRvVBbQLVpK3+kCh9hzvMT4qFiBJH3WOCnJ/N4OIkCXZnxl6rMD3r3AuN0AnKj40c/Ieg==}
     engines: {node: '>=22'}
     cpu: [x64]
     os: [darwin]
 
-  '@pandacss/compiler-linux-arm64-gnu@2.1.1':
-    resolution: {integrity: sha512-vAGjhiGpgAsmwyEn9XFbeUZfsdgNF/INOHnAmmaiteuGBM/Hn9C54vCbVJKyufE0awq3E6J3CLUzGX2UgQMdWQ==}
+  '@pandacss/compiler-linux-arm64-gnu@2.1.2':
+    resolution: {integrity: sha512-cBjNCVdcLQmztRnK17pIpWKPU9HMZoijF5aqJuIUI+rHROxWpAzBUY/HRs0lnTy13j5uTfGvOr+k4XL9bQDzHw==}
     engines: {node: '>=22'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@pandacss/compiler-linux-arm64-musl@2.1.1':
-    resolution: {integrity: sha512-3Ypss0Rbn5PLiKsGaelrtBOaJLJXw3W9NzYoOaa50h0UR7Ie9hPpw645r7WGqBa8qBXEuhYCAE7LqJIdne7URg==}
+  '@pandacss/compiler-linux-arm64-musl@2.1.2':
+    resolution: {integrity: sha512-EIlF1YJKVCRwTycKTOpnFkuLeNeBrMpMCMLxHgL3NYmSdmMHsrGt1IZxFxkixlUvgvrJL41pqeTvQzG4p+hIpQ==}
     engines: {node: '>=22'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@pandacss/compiler-linux-x64-gnu@2.1.1':
-    resolution: {integrity: sha512-l/fgU9DMr2dODWv3H6ZqzjUabKoJZOlZAYX307AnqeRdk7JAdHzS49bggSRcjlwIsdIeR031OkchFGIK5DVthg==}
+  '@pandacss/compiler-linux-x64-gnu@2.1.2':
+    resolution: {integrity: sha512-AZJHuoC2cC/8QOFw4wMLik2e9XrQl/HbK4WrOGYI+xUER5gFaisVfn1MMmharzxdDovuNU5zAP1S7UIMAlMM9w==}
     engines: {node: '>=22'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@pandacss/compiler-linux-x64-musl@2.1.1':
-    resolution: {integrity: sha512-ox5yodkIiiIIUgWHGjliSrTc3vdAA39Tk3Dsz5M+meeBHjy0oaKmjHudXXiGVmhUrgFi9R9lxGRi8IaVbFdODw==}
+  '@pandacss/compiler-linux-x64-musl@2.1.2':
+    resolution: {integrity: sha512-Cf88lmdLauA0CS7ZYwiOeroOAB7evGnEYARLU1e6/JJ1kQwSz5x48F8E/A8AVkslJ9ykTBr33f1liK/8hwq/BQ==}
     engines: {node: '>=22'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@pandacss/compiler-shared@2.1.1':
-    resolution: {integrity: sha512-tcEeH1Sc6We0aZ+eb8uQsBSyX2BvDDe3bRQvOhyCoemiZPB4ISt9H04WTXi105mR6RZ2bW3BxFB6HLdtBmb+qg==}
+  '@pandacss/compiler-shared@2.1.2':
+    resolution: {integrity: sha512-vnfd8orWYPSI0Hjhd4m0sjquVWAgCVVg+PkdEf0izcIKSg6yRjtnW/cafcRXOfV1VIYRfPApCkAXocTVPTvIUA==}
     engines: {node: '>=22'}
 
-  '@pandacss/compiler-win32-arm64-msvc@2.1.1':
-    resolution: {integrity: sha512-CaNtoF3qqdHocD9SSopwc4SQcNGV9tXU8Jjna/vfpQ7ZaFrKpuEbQ7q6eiTW1Pqcws8FCD3XbLRWluo9+BSdDg==}
+  '@pandacss/compiler-win32-arm64-msvc@2.1.2':
+    resolution: {integrity: sha512-V2oaxMlmHdhED5qA/yA8AvOfyJmb5tt2V+Lly1Kn8OclLWQON9A/DQ1fOcVCrhCVbAbjanaLzzwRJr6uZ875ZA==}
     engines: {node: '>=22'}
     cpu: [arm64]
     os: [win32]
 
-  '@pandacss/compiler-win32-x64-msvc@2.1.1':
-    resolution: {integrity: sha512-faVvYG9woYH1oZj7y7cPm+XiTvLRMQbL2gxx4cPNEc2dEkiXhJGAgEo/xffEG9tvUIXqSU+GoBIyoqVE3EK7hA==}
+  '@pandacss/compiler-win32-x64-msvc@2.1.2':
+    resolution: {integrity: sha512-FEx1tyIRzaa5ytUXl77CHmS6C/D1NWG6iQwXJCEDx7qVKZFEyMlg/GZfkbuN+lMWg5Z9OZxnSAGhg07MjQDWjw==}
     engines: {node: '>=22'}
     cpu: [x64]
     os: [win32]
 
-  '@pandacss/compiler@2.1.1':
-    resolution: {integrity: sha512-6TYp665nklAyFVq2BoLA0qlvxbpX7uZTaweeBH+KABVQuK8T6wUZOSfXcOHQxWQ9kak6M2gFzz7PR8+BXQJgVg==}
+  '@pandacss/compiler@2.1.2':
+    resolution: {integrity: sha512-l/F1Y82o6hjGu/wcv9V/rS269TosputZZx1wHIytEIU5I96KI6lyLXLBINTf9qSvHgWBOO5eJTbgASZHa+GExQ==}
     engines: {node: '>=22'}
 
-  '@pandacss/config@2.1.1':
-    resolution: {integrity: sha512-4g/VSBWVrX/lH2F7pZdR6pZgQja6knAUJkUhO85lBB0/o8TmPxYWyv0VoMmaxXRLhU9FScJOcnLOFmc5ZilwgQ==}
+  '@pandacss/config@2.1.2':
+    resolution: {integrity: sha512-ZdYXHdEYLPMfqUfd0pEjVFBIw/WQ4XOkZI52Ume6lNzWoelyuQupDoJsVaCrWrZFrLXVUqbKxcllPcMkYIsQmQ==}
     engines: {node: '>=22'}
 
-  '@pandacss/dev@2.1.1':
-    resolution: {integrity: sha512-c7P4F54HB417E1nbtppKKEmMKWZzYDN7ecp+ajy7VZr/QoNOiOVhyHPnGS52//mWTCIIgnM0bsxZiPBMsFEuMA==}
+  '@pandacss/dev@2.1.2':
+    resolution: {integrity: sha512-M27zvpmVV5ftCztpPDrVmmxh1IwdNxVILbAH401+6tf5Ua0GBgCMJYPXZL8urkpiZRGmV8juICF/loAK4rVATw==}
     engines: {node: '>=22'}
     hasBin: true
     peerDependencies:
@@ -1113,14 +1113,14 @@ packages:
       postcss:
         optional: true
 
-  '@pandacss/postcss@2.1.1':
-    resolution: {integrity: sha512-PX5qnlojrj2HhlOhZ2m5Az9b8DaqAmt+yFA8nZp4xPFRcl4+LKyYFSUlTsKD5bknSpmD9155Thdvo8yOpys3ZA==}
+  '@pandacss/postcss@2.1.2':
+    resolution: {integrity: sha512-GT+YQ0OZEupwpc2AStjv8wexnfqdNCdin983kW5PmeE4vGVeIq4Jej+GU2MEyX3/OCEdDy0Mgj4+hMcbc18EFA==}
     engines: {node: '>=22'}
     peerDependencies:
       postcss: '>=8'
 
-  '@pandacss/types@2.1.1':
-    resolution: {integrity: sha512-ycF8sYdqg8mu2cdfdR2hM/pLRpSxBVkD2kJkCBhWAr+KvKb5SoRRNeERSzizgENDUKmThcWHF3N0kSFMA1Rt9A==}
+  '@pandacss/types@2.1.2':
+    resolution: {integrity: sha512-Vbu+E+PFjrkkJnyofMdxr7q0pzOlM6cUm8mLahUcWtpE8wzK7S/VnGhpFc4YfImvRC52yMt9ViKufYENbYKI2w==}
     engines: {node: '>=22'}
 
   '@parcel/watcher-android-arm64@2.5.6':
@@ -4320,13 +4320,13 @@ snapshots:
   '@oxc-resolver/binding-win32-x64-msvc@11.21.2':
     optional: true
 
-  '@pandacss/cli@2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)':
+  '@pandacss/cli@2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)':
     dependencies:
       '@clack/prompts': 1.7.0
-      '@pandacss/compiler': 2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
-      '@pandacss/compiler-shared': 2.1.1
-      '@pandacss/config': 2.1.1
-      '@pandacss/types': 2.1.1
+      '@pandacss/compiler': 2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
+      '@pandacss/compiler-shared': 2.1.2
+      '@pandacss/config': 2.1.2
+      '@pandacss/types': 2.1.2
       '@parcel/watcher': 2.5.6
       citty: 0.2.2
       fflate: 0.8.3
@@ -4336,57 +4336,57 @@ snapshots:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@pandacss/compiler-darwin-arm64@2.1.1':
+  '@pandacss/compiler-darwin-arm64@2.1.2':
     optional: true
 
-  '@pandacss/compiler-darwin-x64@2.1.1':
+  '@pandacss/compiler-darwin-x64@2.1.2':
     optional: true
 
-  '@pandacss/compiler-linux-arm64-gnu@2.1.1':
+  '@pandacss/compiler-linux-arm64-gnu@2.1.2':
     optional: true
 
-  '@pandacss/compiler-linux-arm64-musl@2.1.1':
+  '@pandacss/compiler-linux-arm64-musl@2.1.2':
     optional: true
 
-  '@pandacss/compiler-linux-x64-gnu@2.1.1':
+  '@pandacss/compiler-linux-x64-gnu@2.1.2':
     optional: true
 
-  '@pandacss/compiler-linux-x64-musl@2.1.1':
+  '@pandacss/compiler-linux-x64-musl@2.1.2':
     optional: true
 
-  '@pandacss/compiler-shared@2.1.1':
+  '@pandacss/compiler-shared@2.1.2':
     dependencies:
-      '@pandacss/types': 2.1.1
+      '@pandacss/types': 2.1.2
 
-  '@pandacss/compiler-win32-arm64-msvc@2.1.1':
+  '@pandacss/compiler-win32-arm64-msvc@2.1.2':
     optional: true
 
-  '@pandacss/compiler-win32-x64-msvc@2.1.1':
+  '@pandacss/compiler-win32-x64-msvc@2.1.2':
     optional: true
 
-  '@pandacss/compiler@2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)':
+  '@pandacss/compiler@2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)':
     dependencies:
       '@napi-rs/wasm-runtime': 1.2.4(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
-      '@pandacss/compiler-shared': 2.1.1
-      '@pandacss/config': 2.1.1
-      '@pandacss/types': 2.1.1
+      '@pandacss/compiler-shared': 2.1.2
+      '@pandacss/config': 2.1.2
+      '@pandacss/types': 2.1.2
     optionalDependencies:
-      '@pandacss/compiler-darwin-arm64': 2.1.1
-      '@pandacss/compiler-darwin-x64': 2.1.1
-      '@pandacss/compiler-linux-arm64-gnu': 2.1.1
-      '@pandacss/compiler-linux-arm64-musl': 2.1.1
-      '@pandacss/compiler-linux-x64-gnu': 2.1.1
-      '@pandacss/compiler-linux-x64-musl': 2.1.1
-      '@pandacss/compiler-win32-arm64-msvc': 2.1.1
-      '@pandacss/compiler-win32-x64-msvc': 2.1.1
+      '@pandacss/compiler-darwin-arm64': 2.1.2
+      '@pandacss/compiler-darwin-x64': 2.1.2
+      '@pandacss/compiler-linux-arm64-gnu': 2.1.2
+      '@pandacss/compiler-linux-arm64-musl': 2.1.2
+      '@pandacss/compiler-linux-x64-gnu': 2.1.2
+      '@pandacss/compiler-linux-x64-musl': 2.1.2
+      '@pandacss/compiler-win32-arm64-msvc': 2.1.2
+      '@pandacss/compiler-win32-x64-msvc': 2.1.2
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@pandacss/config@2.1.1':
+  '@pandacss/config@2.1.2':
     dependencies:
-      '@pandacss/compiler-shared': 2.1.1
-      '@pandacss/types': 2.1.1
+      '@pandacss/compiler-shared': 2.1.2
+      '@pandacss/types': 2.1.2
       acorn: 8.18.0
       acorn-walk: 8.3.5
       javascript-stringify: 2.1.0
@@ -4394,29 +4394,29 @@ snapshots:
       microdiff: 1.5.0
       rolldown: 1.2.7
 
-  '@pandacss/dev@2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)':
+  '@pandacss/dev@2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)':
     dependencies:
-      '@pandacss/cli': 2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
-      '@pandacss/compiler': 2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
-      '@pandacss/config': 2.1.1
-      '@pandacss/postcss': 2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)
-      '@pandacss/types': 2.1.1
+      '@pandacss/cli': 2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
+      '@pandacss/compiler': 2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
+      '@pandacss/config': 2.1.2
+      '@pandacss/postcss': 2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)
+      '@pandacss/types': 2.1.2
     optionalDependencies:
       postcss: 8.5.28
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@pandacss/postcss@2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)':
+  '@pandacss/postcss@2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)(postcss@8.5.28)':
     dependencies:
-      '@pandacss/compiler': 2.1.1(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
-      '@pandacss/compiler-shared': 2.1.1
+      '@pandacss/compiler': 2.1.2(@emnapi/core@1.11.0)(@emnapi/runtime@1.11.0)
+      '@pandacss/compiler-shared': 2.1.2
       postcss: 8.5.28
     transitivePeerDependencies:
       - '@emnapi/core'
       - '@emnapi/runtime'
 
-  '@pandacss/types@2.1.1': {}
+  '@pandacss/types@2.1.2': {}
 
   '@parcel/watcher-android-arm64@2.5.6':
     optional: true
