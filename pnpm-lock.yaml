@@ -262,8 +262,8 @@ importers:
   packages/design-tokens:
     devDependencies:
       style-dictionary:
-        specifier: 5.6.1
-        version: 5.6.1
+        specifier: 5.7.0
+        version: 5.7.0
 
   tools/eslint-config:
     dependencies:
@@ -3451,8 +3451,8 @@ packages:
     resolution: {integrity: sha512-SlyRoSkdh1dYP0PzclLE7r0M9sgbFKKMFXpFRUMNuKhQSbC6VQIGzq3E0qsfvGJaUFJPGv6Ws1NZ/haTAjfbMA==}
     engines: {node: '>=12'}
 
-  style-dictionary@5.6.1:
-    resolution: {integrity: sha512-aDYbNr38jKIGTWHAJl5yZLWLftEopmR7RNT035Wjenshr3VnPfXO2ns/E1kPdNDi7Akl1h1iXSeQ+o8IN60+ew==}
+  style-dictionary@5.7.0:
+    resolution: {integrity: sha512-imy4PuzqWTCpPE9YMcDSlqtb9zV4wj8I06hRDpt+/HTJVH88KKuMx0X++/PMDjQAGptSxqIkYiulOSwSL5r6Kw==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
@@ -6971,7 +6971,7 @@ snapshots:
 
   strip-indent@4.1.1: {}
 
-  style-dictionary@5.6.1:
+  style-dictionary@5.7.0:
     dependencies:
       '@bundled-es-modules/deepmerge': 4.3.2
       '@bundled-es-modules/glob': 13.0.6
